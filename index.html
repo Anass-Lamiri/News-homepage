@@ -24,7 +24,12 @@
         </header>
         <main class="hero">
             <div class="left">
-                <img src="/images/image-web-3-desktop.jpg" width="730px" height="300px" alt="image web3">
+                <picture>
+                    <source srcset="/images/image-web-3-mobile.jpg" media="(max-width: 426px)">
+                    <source srcset="/images/image-web-3-desktop.jpg">
+                    <img src="/images/image-web-3-desktop.jpg" width="730px" height="300px" alt="image web3">
+                  </picture>
+                
                 <div class="left_content">
                     <h1 class="title">The Bright Future of Web 3.0?</h1>
                     <div class="cta_content">
