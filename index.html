@@ -20,19 +20,35 @@
                     <li><a href="#">Trending</a></li>
                     <li><a href="#">Categories</a></li>
                 </ul>
-                <a href="#" class="logo_menu">
-                    <img src="/images/icon-menu.svg" width="40px" height="17px" alt="menu" >
-                </a>
+
+                <div class="logo_menu open_menu">
+                    <img src="/images/icon-menu.svg" style="cursor: pointer;" class="open_menu" width="40px"
+                        height="17px" alt="open menu">
+                </div>
+
+                <div class="logo_menu close_menu">
+                    <img src="/images/icon-menu-close.svg" width="32px" height="31px" alt="close menu">
+                    <ul class="nav_bar-menu">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">New</a></li>
+                        <li><a href="#">Popular</a></li>
+                        <li><a href="#">Trending</a></li>
+                        <li><a href="#">Categories</a></li>
+                    </ul>
+                </div>
+
             </nav>
         </header>
         <main class="hero">
             <div class="left">
                 <picture>
-                    <source srcset="/images/image-web-3-mobile.jpg" width="343px" height="300px" media="(max-width: 426px)">
+                    <source srcset="/images/image-web-3-mobile.jpg" width="343px" height="300px"
+                        media="(max-width: 426px)">
                     <source srcset="/images/image-web-3-desktop.jpg">
-                    <img src="/images/image-web-3-desktop.jpg" class="bg_desktop" width="730px" height="300px" alt="image web3">
-                  </picture>
-                
+                    <img src="/images/image-web-3-desktop.jpg" class="bg_desktop" width="730px" height="300px"
+                        alt="image web3">
+                </picture>
+
                 <div class="left_content">
                     <h1 class="title">The Bright Future of Web 3.0?</h1>
                     <div class="cta_content">
@@ -96,6 +112,8 @@
             </div>
         </div>
     </div>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
